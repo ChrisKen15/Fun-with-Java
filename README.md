@@ -1,7 +1,7 @@
 # Fun-with-Java
 
 Essential principles, techniques, tools, and methods used: 
- - Inheritance, interfaces, abstract classes, polymorphism
+ - Inheritance, Polymorphism, Abstraction, Encapsulation 
  - Unified Modeling Language (UML)
  - Essential design patterns, including Singleton, Model-View-Controller (MVC), Template Method, State
  - Black-box unit testing, debugging, developing large applications in Eclipse and intellij
