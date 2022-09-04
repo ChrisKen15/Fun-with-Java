@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:padding="10dip"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <Spinner
+
+                android:layout_width="205dp"
+                android:layout_height="match_parent" android:id="@+id/AdultSpinner" android:visibility="visible"
+                tools:visibility="visible" android:spinnerMode="dropdown" android:entries="@array/num_tickets"
+                android:dropDownWidth="match_parent"/>
+        <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/adulttext" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/senorSpinner" android:layout_weight="1"
+                android:spinnerMode="dropdown" android:entries="@array/num_tickets"
+                android:dropDownWidth="match_parent"/>
+        <TextView
+                android:layout_width="371dp"
+                android:layout_height="match_parent" android:id="@+id/seniortext" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="53dp">
+        <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/studentSpinner" android:layout_weight="1"
+                android:spinnerMode="dropdown" android:entries="@array/num_tickets"
+                android:dropDownWidth="match_parent"/>
+        <TextView
+                android:layout_width="373dp"
+                android:layout_height="match_parent" android:id="@+id/studenttext" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <Button
+            android:text="@string/Calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Calculate"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName" android:layout_weight="1" android:text="@string/TicketPrice"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/ticket_price_Text_view" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="58dp">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName2" android:layout_weight="1" android:text="@string/SalesTax"/>
+        <TextView
+                android:layout_width="531dp"
+                android:layout_height="match_parent" android:id="@+id/sales_tax_text_view" android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="61dp">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextTextPersonName3" android:layout_weight="1" android:text="@string/TicketTotal"/>
+        <TextView
+                android:layout_width="533dp"
+                android:layout_height="match_parent" android:id="@+id/ticket_total_text_view"
+                android:layout_weight="1" android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+    </LinearLayout>
+    <ImageButton
+            android:layout_width="397dp"
+            android:layout_height="149dp" android:id="@+id/imageB" android:onClick="goToWeb"/>
+
+</LinearLayout>

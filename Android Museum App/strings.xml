@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Project5</string>
+    <string name="MoMA_PS1">MoMA PS1</string>
+    <string name="New_York_Historical_Society">New York Historical Society</string>
+    <string name="Rubin_Museum">Rubin Museum</string>
+    <string name="Whitney_Museum_of_American_Art">Whitney Museum of American Art</string>
+    <string name="TicketsForAdult">Tickets For Adults</string>
+    <string name="Senior">Tickets For Senior</string>
+    <string name="Student">Tickets For Students</string>
+    <string name="Calculate">Calculate</string>
+    <string name="TicketPrice">Ticket Price</string>
+    <string name="SalesTax">Sales Tax</string>
+    <string name="TicketTotal">Ticket Total</string>
+    <string-array name="num_tickets">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+</resources>
